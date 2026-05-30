@@ -1,75 +1,171 @@
-# Hi 👋 I'm Vishwambhar Patil
+# Hi, I'm Vishwambhar Patil
 
-Senior Software Engineer with 9 years of experience building backend systems, workflow automation platforms, mobile applications, and production solutions.
+**Senior Software Engineer** · Backend automation · Production mobile · Full-stack platforms
 
-# 💫 About Me:
-🔭 I’m currently working on  
-- Java Spring Boot backend systems and workflow automation platforms  
-- Diet Automation Engine modernization and scalable backend architecture  
-- REST APIs and microservices-based application development  
+I build systems that replace manual operations with reliable software — from rule-driven diet engines and call-scheduling automation to Play Store / App Store nutrition apps and large-scale campaign platforms.
 
-👯 I’m looking to collaborate on  
-- Java backend and Spring Boot projects  
-- Workflow automation and scalable platform development  
-- Backend architecture and system design projects  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/vishwambhar-patil-802252235)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vishu.avi.777@gmail.com)
 
-🤝 I’m looking for help with  
-- Kubernetes and cloud-native backend systems  
-- CI/CD pipelines and distributed architectures  
-- Advanced microservices patterns  
+---
 
-🌱 I’m currently learning  
-- Spring Boot advanced concepts  
-- Microservices and scalable system design  
-- Docker, CI/CD, and backend performance optimization  
+## About Me
 
-💬 Ask me about  
-- Java backend development  
-- REST APIs and database design  
-- Workflow automation systems  
-- Rule-based engines and scheduling systems  
-- Android and iOS application integration  
+- **~10 years** shipping software in health, nutrition, and operations-heavy domains
+- **Backend focus:** Java, Spring Boot, REST APIs, JPA, MySQL — workflow automation, scheduling, and rule-based engines
+- **Mobile leadership:** Led Android & iOS development for a production nutrition platform (Google Play & Apple App Store)
+- **Full-stack:** Next.js, TypeScript, Supabase/PostgreSQL for data-heavy, multi-role web products
 
-⚡ Fun fact  
-- Built a Diet Automation Engine that generates 1000+ personalized diet plans every month and reduced manual planning time from 5–10 minutes to around 1 minute.  
+**Currently exploring:** microservices patterns, Docker, CI/CD, and cloud-native backend architecture.
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/vishwambhar-patil-802252235) 
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:vishu.avi.777@gmail.com)
+**Ask me about:** Spring Boot system design, REST APIs, task/call automation, diet rule engines, mobile architecture (Kotlin Compose / Swift), or scaling ops tooling.
 
-# 💻 Tech Stack:
+---
 
-### 🚀 Backend & APIs
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/springboot-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
-![REST API](https://img.shields.io/badge/REST%20API-005571?style=for-the-badge)
-![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=Hibernate&logoColor=white)
-![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
+## Featured Projects
 
-### 🗄️ Databases
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+### Task & Call Management Automation
 
-### 🌐 Web Technologies
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![Angular](https://img.shields.io/badge/angular-%23E23237.svg?style=for-the-badge&logo=angular&logoColor=white)
-![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+Spring Boot system that automates daily work allocation for customer service teams — scheduling weight-check, birthday, motivation, feedback, pre/post-diet, and follow-up calls with fair distribution and reassignment when staff are absent.
 
-### 📱 Mobile Development
-![Android](https://img.shields.io/badge/Android-%233DDC84.svg?style=for-the-badge&logo=android&logoColor=white)
-![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
-![Swift](https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white)
+| | |
+| --- | --- |
+| **Impact** | Reduced manual assignment effort and improved workload balance across teams |
+| **Stack** | Java · Spring Boot · Spring Data JPA · MySQL · REST |
+| **Highlights** | Auto-scheduling · availability-based assignment · completion tracking · centralized visibility |
+| **Repo** | [springboot-task-scheduling-system](https://github.com/vishuavi777-eng/springboot-task-scheduling-system) |
 
-### 🛠️ Tools & Platforms
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Gradle](https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+<a href="https://github.com/vishuavi777-eng/springboot-task-scheduling-system">
+  <img src="https://raw.githubusercontent.com/vishuavi777-eng/springboot-task-scheduling-system/main/docs/images/swagger-preview.png" alt="Task scheduling system — Swagger API" width="100%" />
+</a>
+
+---
+
+### Milk Diary — Tracker & Billing
+
+JavaFX desktop app for small dairy outlets: daily milk collection, member management, rate plans, monthly billing, savings, PDF reports, and backup/restore — built for real field use, not a toy CRUD demo.
+
+| | |
+| --- | --- |
+| **Impact** | End-to-end billing and reporting for milk vendors and suppliers |
+| **Stack** | Java 23 · JavaFX · Hibernate · SQLite · Flyway · Gradle |
+| **Highlights** | Fat/SNF pricing · Marathi UI · PDF bills · local-first SQLite |
+| **Repo** | [MilkDiary](https://github.com/vishuavi777-eng/MilkDiary) |
+
+<p align="center">
+  <a href="https://github.com/vishuavi777-eng/MilkDiary">
+    <img src="https://raw.githubusercontent.com/vishuavi777-eng/MilkDiary/main/docs/screenshots/milk-daily-entries.png" alt="Milk Diary — daily entries" width="49%" />
+  </a>
+  <a href="https://github.com/vishuavi777-eng/MilkDiary">
+    <img src="https://raw.githubusercontent.com/vishuavi777-eng/MilkDiary/main/docs/screenshots/milk-billing.png" alt="Milk Diary — monthly billing" width="49%" />
+  </a>
+</p>
+
+---
+
+### Voter Campaign Management Platform
+
+Large-scale election campaign platform: **64,000+ voter records**, multi-role access (admin, candidate, volunteer), surveys, analytics, WhatsApp campaigns, and a custom strategy engine for influence, conversion, and mobilization scoring.
+
+| | |
+| --- | --- |
+| **Impact** | Mobile-first volunteer workflows and data-driven campaign recommendations |
+| **Stack** | Next.js · React · TypeScript · Supabase · PostgreSQL · Tailwind · Vercel |
+| **Highlights** | Strategy engine · geospatial analytics · RBAC · bulk messaging |
+| **Repo** | [voter-strategy](https://github.com/vishuavi777-eng/voter-strategy) |
+
+<p align="center">
+  <a href="https://github.com/vishuavi777-eng/voter-strategy">
+    <img src="https://raw.githubusercontent.com/vishuavi777-eng/voter-strategy/main/docs/screenshots/admin-dashboard.png" alt="Voter strategy — admin dashboard" width="49%" />
+  </a>
+  <a href="https://github.com/vishuavi777-eng/voter-strategy">
+    <img src="https://raw.githubusercontent.com/vishuavi777-eng/voter-strategy/main/docs/screenshots/voters-analytics.png" alt="Voter strategy — voter analytics" width="49%" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/vishuavi777-eng/voter-strategy">
+    <img src="https://raw.githubusercontent.com/vishuavi777-eng/voter-strategy/main/docs/screenshots/map-analytics.png" alt="Voter strategy — map analytics" width="100%" />
+  </a>
+</p>
+
+---
+
+## More Professional Work
+
+*Private / production codebases — highlights from long-term product and platform work.*
+
+### Diet Engine Automation Platform
+
+Rule-driven engine that generates personalized meal plans from preferences, health conditions, carb cycling, substitutions, and customer history.
+
+| Metric | Result |
+|--------|--------|
+| Monthly volume | **1,000+** personalized plans |
+| Prep time | **5–10 min → ~1 min** per plan |
+| Scope | Recipes, schedules, restrictions, dynamic replanning |
+
+**Stack:** Java · Spring Boot · MySQL · rule-engine architecture · REST APIs
+
+---
+
+### Nourish Genie — Mobile Platform
+
+Production nutrition & health coaching app on **Google Play** and the **Apple App Store**. Led Android & iOS development; currently rebuilding the Android app with **Kotlin and Jetpack Compose**.
+
+| | |
+| --- | --- |
+| **Role** | Lead mobile developer — Android & iOS, team leadership, stakeholder collaboration |
+| **Production stack** | Java · Android SDK · Swift · UIKit · REST · Firebase |
+| **Compose rebuild** | Kotlin · Jetpack Compose · MVVM · Retrofit · Coroutines |
+| **Tracking modules** | Food diary · weight · water · activity · medicine |
+
+<p align="center">
+  <img src="assets/nourish-genie-compose/food-diary.jpg" alt="Nourish Genie — food diary" width="24%" />
+  <img src="assets/nourish-genie-compose/weight-tracker.jpg" alt="Nourish Genie — weight tracker" width="24%" />
+  <img src="assets/nourish-genie-compose/water-intake.jpg" alt="Nourish Genie — water intake" width="24%" />
+  <img src="assets/nourish-genie-compose/activity-tracker.jpg" alt="Nourish Genie — activity tracker" width="24%" />
+</p>
+
+---
+
+## Tech Stack
+
+### Backend & APIs
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
+![REST](https://img.shields.io/badge/REST_API-005571?style=for-the-badge)
+
+### Databases
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+
+### Web & Cloud
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-# 📊 GitHub Stats:
+### Mobile & Desktop
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white)
+![JavaFX](https://img.shields.io/badge/JavaFX-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+
+### Tools
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Gradle](https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+
+---
+
+## GitHub Stats
+
 ![](https://github-readme-stats.shion.dev/api?username=vishuavi777-eng&theme=dark&hide_border=false&include_all_commits=true&count_private=true)
 
 ![](https://streak-stats.demolab.com/?user=vishuavi777-eng&theme=dark&hide_border=false)
@@ -77,3 +173,7 @@ Senior Software Engineer with 9 years of experience building backend systems, wo
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=vishuavi777-eng&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
 ---
+
+<p align="center">
+  <i>Open to collaborating on backend automation, Spring Boot platforms, and scalable product engineering.</i>
+</p>
