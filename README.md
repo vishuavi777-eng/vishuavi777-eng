@@ -4,6 +4,8 @@
 
 I build systems that replace manual operations with reliable software — from rule-driven diet engines and call-scheduling automation to Play Store / App Store nutrition apps and large-scale campaign platforms.
 
+**1,000+ diet plans/month** · **64,000+ voter records** · **Play Store & App Store** · **~10 years** in production software
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/vishwambhar-patil-802252235)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vishu.avi.777@gmail.com)
 
@@ -23,6 +25,58 @@ I build systems that replace manual operations with reliable software — from r
 ---
 
 ## Featured Projects
+
+### Diet Engine Automation Platform
+
+Rule-driven engine that generates personalized meal plans from preferences, health conditions, carb cycling, substitutions, and customer history — one of the highest-impact systems from a decade in nutrition tech.
+
+| | |
+| --- | --- |
+| **Impact** | **1,000+** plans/month · prep time **5–10 min → ~1 min** · eliminated most manual drafting |
+| **Stack** | Java · Spring Boot · MySQL · rule-engine architecture · REST APIs |
+| **Highlights** | Rule evaluation · meal substitution · nutritional calculations · dynamic replanning |
+| **Case study** | [docs/diet-engine-case-study.md](docs/diet-engine-case-study.md) *(private production codebase)* |
+
+```mermaid
+flowchart LR
+    API["REST API"] --> Engine["Rule Engine"]
+    Engine --> Rules["Rule Evaluator"]
+    Engine --> Meals["Meal Planner"]
+    Rules --> DB[(MySQL)]
+    Meals --> Output["Plan + Recipes"]
+    Mobile["Mobile Apps"] --> API
+```
+
+---
+
+### Voter Campaign Management Platform
+
+Large-scale election campaign platform: **64,000+ voter records**, multi-role access (admin, candidate, volunteer), surveys, analytics, WhatsApp campaigns, and a custom strategy engine for influence, conversion, and mobilization scoring.
+
+| | |
+| --- | --- |
+| **Impact** | Mobile-first volunteer workflows and data-driven campaign recommendations |
+| **Stack** | Next.js · React · TypeScript · Supabase · PostgreSQL · Tailwind · Vercel |
+| **Highlights** | Strategy engine · geospatial analytics · RBAC · bulk messaging |
+| **Repo** | [voter-strategy](https://github.com/vishuavi777-eng/voter-strategy) |
+| **Demo** | [Candidate walkthrough](https://youtu.be/5HRaQ7l-Yu0) · [Volunteer walkthrough](https://youtu.be/OfFBrQsmdgo) |
+
+<p align="center">
+  <a href="https://github.com/vishuavi777-eng/voter-strategy">
+    <img src="https://raw.githubusercontent.com/vishuavi777-eng/voter-strategy/main/docs/screenshots/admin-dashboard.png" alt="Voter strategy — admin dashboard" width="49%" />
+  </a>
+  <a href="https://github.com/vishuavi777-eng/voter-strategy">
+    <img src="https://raw.githubusercontent.com/vishuavi777-eng/voter-strategy/main/docs/screenshots/voters-analytics.png" alt="Voter strategy — voter analytics" width="49%" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/vishuavi777-eng/voter-strategy">
+    <img src="https://raw.githubusercontent.com/vishuavi777-eng/voter-strategy/main/docs/screenshots/map-analytics.png" alt="Voter strategy — map analytics" width="100%" />
+  </a>
+</p>
+
+---
 
 ### Task & Call Management Automation
 
@@ -63,52 +117,6 @@ JavaFX desktop app for small dairy outlets: daily milk collection, member manage
 
 ---
 
-### Voter Campaign Management Platform
-
-Large-scale election campaign platform: **64,000+ voter records**, multi-role access (admin, candidate, volunteer), surveys, analytics, WhatsApp campaigns, and a custom strategy engine for influence, conversion, and mobilization scoring.
-
-| | |
-| --- | --- |
-| **Impact** | Mobile-first volunteer workflows and data-driven campaign recommendations |
-| **Stack** | Next.js · React · TypeScript · Supabase · PostgreSQL · Tailwind · Vercel |
-| **Highlights** | Strategy engine · geospatial analytics · RBAC · bulk messaging |
-| **Repo** | [voter-strategy](https://github.com/vishuavi777-eng/voter-strategy) |
-
-<p align="center">
-  <a href="https://github.com/vishuavi777-eng/voter-strategy">
-    <img src="https://raw.githubusercontent.com/vishuavi777-eng/voter-strategy/main/docs/screenshots/admin-dashboard.png" alt="Voter strategy — admin dashboard" width="49%" />
-  </a>
-  <a href="https://github.com/vishuavi777-eng/voter-strategy">
-    <img src="https://raw.githubusercontent.com/vishuavi777-eng/voter-strategy/main/docs/screenshots/voters-analytics.png" alt="Voter strategy — voter analytics" width="49%" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/vishuavi777-eng/voter-strategy">
-    <img src="https://raw.githubusercontent.com/vishuavi777-eng/voter-strategy/main/docs/screenshots/map-analytics.png" alt="Voter strategy — map analytics" width="100%" />
-  </a>
-</p>
-
----
-
-## More Professional Work
-
-*Private / production codebases — highlights from long-term product and platform work.*
-
-### Diet Engine Automation Platform
-
-Rule-driven engine that generates personalized meal plans from preferences, health conditions, carb cycling, substitutions, and customer history.
-
-| Metric | Result |
-|--------|--------|
-| Monthly volume | **1,000+** personalized plans |
-| Prep time | **5–10 min → ~1 min** per plan |
-| Scope | Recipes, schedules, restrictions, dynamic replanning |
-
-**Stack:** Java · Spring Boot · MySQL · rule-engine architecture · REST APIs
-
----
-
 ### Nourish Genie — Mobile Platform
 
 Production nutrition & health coaching app on **Google Play** and the **Apple App Store**. Led Android & iOS development; currently rebuilding the Android app with **Kotlin and Jetpack Compose**.
@@ -131,49 +139,26 @@ Production nutrition & health coaching app on **Google Play** and the **Apple Ap
 
 ## Tech Stack
 
-### Backend & APIs
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
-![REST](https://img.shields.io/badge/REST_API-005571?style=for-the-badge)
-
-### Databases
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-
-### Web & Cloud
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-
-### Mobile & Desktop
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white)
-![JavaFX](https://img.shields.io/badge/JavaFX-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-
-### Tools
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-4285F4?style=for-the-badge&logo=android&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Gradle](https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
 ---
 
-## GitHub Stats
+## GitHub Activity
 
 ![](https://github-readme-stats.shion.dev/api?username=vishuavi777-eng&theme=dark&hide_border=false&include_all_commits=true&count_private=true)
-
-![](https://streak-stats.demolab.com/?user=vishuavi777-eng&theme=dark&hide_border=false)
-
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=vishuavi777-eng&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
 ---
 
 <p align="center">
-  <i>Open to collaborating on backend automation, Spring Boot platforms, and scalable product engineering.</i>
+  <b>Open to Senior Backend / Full-stack roles</b> — Java, Spring Boot, workflow automation, and product-focused engineering teams.<br/>
+  <i>Also happy to collaborate on scalable platform and mobile-adjacent product work.</i>
 </p>
